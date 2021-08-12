@@ -1,0 +1,106 @@
+html{
+    background-color: grey;
+}
+
+
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+   box-sizing: border-box;
+}
+
+.container-area{
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+header h1{
+    margin: 0%;
+    color: khaki;
+    font-size: normal;
+}
+header p{
+    margin: 0%;
+}
+
+.main-area{
+    width: 34%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 200%;
+    height: auto;
+}
+
+/* banner overlay */
+.img-banner{
+    position: relative;
+}
+
+img-banner img{
+    display: block;
+}
+.img-description{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    color: #fff;
+    padding: 3px 3px;
+    background-color: rgba(0, 0, 0, 65)
+     
+}
+.sidebar{
+    width: 34%;
+    float: left;
+}
+
+.fix{
+    clear:both;
+}
+/* Site Navigation*/
+.site-nav{
+    margin-top: 20px;
+}
+.site-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.site-nav li{
+    list-style: none;
+    float: left;
+    margin: 3px;
+}
+
+.site-nav a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px 20px;
+    border: 3px solid grey;
+    
+}
+
+.site-nav a:hover{
+    background-color: rgb(194, 187, 187);
+}
+
+
+/*End Site Navigation*/
